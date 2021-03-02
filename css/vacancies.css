@@ -1,0 +1,41 @@
+#vacancies {
+  padding: 0;
+}
+
+#vacancies .txt_left {
+  font-weight: 700;
+}
+
+#vacancies .vacancies_block_1 {
+  position: relative;
+  padding-bottom: 50px;
+}
+
+#vacancies .vacancies_block_1:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: grey;
+  bottom: 0;
+}
+
+#vacancies .vacancies_block_2 {
+  padding-top: 50px;
+}
+
+#vacancies .vacancies_block_3 {
+  padding-top: 50px;
+}
+
+#vacancies .txt {
+  padding: 10px 0;
+}
+
+#vacancies button {
+  display: block;
+  height: 50px;
+  width: 100px;
+  background: #cdc;
+  margin: 0 auto;
+}
